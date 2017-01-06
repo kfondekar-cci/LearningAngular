@@ -1,0 +1,61 @@
+[
+    {
+        "age": 25, 
+        "id": "E-1", 
+        "imageUrl": "img/employees/John.jpg", 
+        "name": "John Smith",
+        "technology" : ".NET"
+        
+    }, 
+    {
+        "age": 24, 
+        "id": "E-2", 
+        "imageUrl": "img/employees/James.jpg", 
+        "name": "James" ,
+        "technology" : "C#.NET"
+    }, 
+    {
+        "age": 27, 
+        "carrier": "AT&T", 
+        "id": "E-3", 
+        "imageUrl": "img/employees/David.jpg", 
+        "name": "David",
+        "technology" : "Java"
+    }, 
+    {
+        "age": 30, 
+        "id": "E-4", 
+        "imageUrl": "img/employees/Roger.jpg", 
+        "name": "Roger",
+        "technology" : "AngularJS"
+    }, 
+    {
+        "age": 34, 
+        "id": "E-5", 
+        "imageUrl": "img/employees/Helix.jpg", 
+        "name": "Helix",
+        "technology" : ".NET"
+    }, 
+    {
+        "age": 25, 
+        "id": "E-6", 
+        "imageUrl": "img/employees/Roy.png", 
+        "name": "Roy",
+        "technology" : "PHP"
+    }, 
+    {
+        "age": 31, 
+        "id": "E-7", 
+        "imageUrl": "img/employees/Cally.jpg", 
+        "name": "Cally",
+        "technology" : "ios"
+    }, 
+    {
+        "age": 22, 
+        "id": "E-8", 
+        "imageUrl": "img/employees/Lougi.png", 
+        "name": "Lougi",
+        "technology" : "Android"
+    }
+    
+]

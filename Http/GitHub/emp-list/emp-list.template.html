@@ -1,0 +1,93 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+      <!--Sidebar content-->
+
+       <p>
+        Search:
+        <input id="search"  ng-model="$ctrl.query">
+        <button type="button" ng-click="$ctrl.setUrl($ctrl.query)">Search</button>
+      </p>
+   <div class="container-fluid ">
+       <div>
+        <img ng-src="{{$ctrl.employee.avatar_url|| '/img/employees/avatar.png'}}" alt="{{$ctrl.employee.name}}" height="450px" width="450px"/>
+        </div>
+     
+   </div>
+    </div>
+    <div class="col-md-7" > 
+      <!--Body content-->
+      
+   <div class="container-fluid containerfluid">
+        
+        <div class="row input-lg divcell">
+             <div class="col-md-3">
+                 Name:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.name}}
+            </div>
+        </div>
+         <div class="row input-lg">
+            <div class="col-md-3">
+                 Address:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.location}}
+            </div>
+        </div>
+        <div class="row input-lg divcell">
+            <div class="col-md-3">
+                 Email:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.email}}
+            </div>
+        </div>
+         <div class="row input-lg">
+             <div class="col-md-3">
+                 Company:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.company}}
+            </div>
+        </div>
+         <div class="row input-lg divcell">
+            <div class="col-md-3">
+                 Bio:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.bio}}
+            </div>
+        </div>
+         
+         <div class="row input-lg">
+             <div class="col-md-3">
+                 Blog:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.blog}}
+            </div>
+        </div>
+         <div class="row input-lg divcell">
+            <div class="col-md-3">
+                 Followers:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.followers}}
+            </div>
+        </div>
+         <div class="row input-lg">
+            <div class="col-md-3">
+                 Following:
+            </div>
+            <div  class="col-md-9">
+                {{$ctrl.employee.following}}
+            </div>
+        </div>
+   </div>
+   
+      
+    </div>
+  </div>
+</div>
